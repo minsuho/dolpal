@@ -11,7 +11,7 @@
       "id": "dolpal-1.21.10",
       "name": "dolpal (Minecraft 1.21.10)",
       "description": "dolpal Running Minecraft 1.21.10 (Fabric v0.17.3)",
-      "icon": null,
+      "icon": "https://github.com/minsuho/dolpal/raw/main/repo/ico.webp",
       "version": "1.0.0",
       "address": "175.112.128.168",
       "minecraftVersion": "1.21.10",
@@ -243,16 +243,6 @@
             "size": 1077403,
             "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/modmenu-16.0.0-rc.1.jar",
             "MD5": "74c349a72ddd8010f67b5cece9aed277"
-          }
-        },
-        {
-          "id": "com.aizistral:nochatreports:1.21.10-v2.16.0@jar",
-          "name": "No Chat Reports",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 249687,
-            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/NoChatReports-FABRIC-1.21.10-v2.16.0.jar",
-            "MD5": "bde05c509c547c9214eb4c50e1387086"
           }
         },
         {
