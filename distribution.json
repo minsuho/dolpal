@@ -1,0 +1,321 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "dolpal-1.21.10",
+      "name": "dolpal (Minecraft 1.21.10)",
+      "description": "dolpal Running Minecraft 1.21.10 (Fabric v0.17.3)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "175.112.128.168",
+      "minecraftVersion": "1.21.10",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.17.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1917330,
+            "MD5": "54e368d0ccdcb9109a63f048e26526b0",
+            "url": "https://github.com/minsuho/dolpal/raw/main/repo/lib/net/fabricmc/fabric-loader/0.17.3/fabric-loader-0.17.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.10-fabric-0.17.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2850,
+                "MD5": "03766f2b160e8bdfa4bd73c63b9d1b2a",
+                "url": "https://github.com/minsuho/dolpal/raw/main/repo/versions/1.21.10-fabric-0.17.3/1.21.10-fabric-0.17.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://github.com/minsuho/dolpal/raw/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://github.com/minsuho/dolpal/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://github.com/minsuho/dolpal/raw/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://github.com/minsuho/dolpal/raw/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://github.com/minsuho/dolpal/raw/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://github.com/minsuho/dolpal/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.10",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 778652,
+                "MD5": "612031a185c7493cc93e908a875b72cc",
+                "url": "https://github.com/minsuho/dolpal/raw/main/repo/lib/net/fabricmc/intermediary/1.21.10/intermediary-1.21.10.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "betteradvancements:betteradvancements:0.4.7.48@jar",
+          "name": "Better Advancements",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 103181,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/BetterAdvancements-Fabric-1.21.10-0.4.7.48.jar",
+            "MD5": "1bb4ca13fa2ba76b09fed861311ba0e9"
+          }
+        },
+        {
+          "id": "me.cael:capes:1.5.9+1.21.9@jar",
+          "name": "Capes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71856,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/capes-1.5.9+1.21.9-fabric.jar",
+            "MD5": "7b5da3df45d2bb09dc84eb2155536f85"
+          }
+        },
+        {
+          "id": "generated.fabricmod:clumps:28.0.0.1@jar",
+          "name": "Clumps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21121,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/Clumps-fabric-1.21.10-28.0.0.1.jar",
+            "MD5": "c3dca246148fb241e8b53099a21b3d8c"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.3@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 481243,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/entityculling-fabric-1.9.3-mc1.21.10.jar",
+            "MD5": "7387a8f1c0c14a995a074a38183cce5a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.138.0+1.21.10@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2376231,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/fabric-api-0.138.0+1.21.10.jar",
+            "MD5": "958d212ca64a14211bcc3f0165481a5c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.7+kotlin.2.2.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7479608,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar",
+            "MD5": "89a977d6a4d7a84b8390f9143dd689f7"
+          }
+        },
+        {
+          "id": "me.ramidzkh:fabrishot:1.16.3@jar",
+          "name": "Fabrishot",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49787,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/fabrishot-1.16.3.jar",
+            "MD5": "2e9a1fe9ab75e3e7cd70b2ff3720a164"
+          }
+        },
+        {
+          "id": "com.gitter.gtdonationapi.fabric.v1_21_10:gtdonationapi:2.0.0@jar",
+          "name": "GT-DonationAPI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5895294,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/GT-DonationAPI-fabric-1.21.10-2.0.0.jar",
+            "MD5": "2b2f7c8b23f2b926e853567be410b589"
+          }
+        },
+        {
+          "id": "com.gitter:gtnick:1.0.0@jar",
+          "name": "GTNick",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 95073,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/gtnick-fabric-1.21.10-1.0.0.jar",
+            "MD5": "4fda9d167a60f9cd0b2082d4b64557c1"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.9.6+mc1.21.9@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2708042,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/iris-fabric-1.9.6+mc1.21.9.jar",
+            "MD5": "d0695462e2d28cc581f87311614e2052"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.10-6.0.0-beta.53@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3609087,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/journeymap-fabric-1.21.10-6.0.0-beta.53.jar",
+            "MD5": "3ca62999d342e3c025c68eaf403516e5"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.2+mc1.21.10@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 642593,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/koreanpatch-fabric-1.9.2+mc1.21.10.jar",
+            "MD5": "18759aa86998e9df2a83926263752b9f"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:16.0.0-rc.1@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1077403,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/modmenu-16.0.0-rc.1.jar",
+            "MD5": "74c349a72ddd8010f67b5cece9aed277"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.21.10-v2.16.0@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 249687,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/NoChatReports-FABRIC-1.21.10-v2.16.0.jar",
+            "MD5": "bde05c509c547c9214eb4c50e1387086"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:2.8.1+1.21.10@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 267926,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/placeholder-api-2.8.1+1.21.10.jar",
+            "MD5": "1627995de31167ebb185975e6c952eb9"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.6@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12200578,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/plasmovoice-fabric-1.21.9-2.1.6.jar",
+            "MD5": "79e52b42fb14c17f98220172da8b160d"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.7.2+mc1.21.10@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1675639,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/sodium-fabric-0.7.2+mc1.21.10.jar",
+            "MD5": "76e0d7d1c910f58627b6e8bd6fd418da"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.6+1.21.9@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1869193,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/Zoomify-2.14.6+1.21.9.jar",
+            "MD5": "b18b8126f580e1a410114054e7ec1eb6"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5791,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.6.1.zip",
+          "name": "ComplementaryReimagined_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500696,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/files/shaderpacks/ComplementaryReimagined_r5.6.1.zip",
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
