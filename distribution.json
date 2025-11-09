@@ -190,9 +190,9 @@
           "name": "GT-DonationAPI",
           "type": "FabricMod",
           "artifact": {
-            "size": 5895294,
+            "size": 5896392,
             "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/GT-DonationAPI-fabric-1.21.10-2.0.0.jar",
-            "MD5": "2b2f7c8b23f2b926e853567be410b589"
+            "MD5": "748ca4caceba59b1d1f9c6586a893ad0"
           }
         },
         {
