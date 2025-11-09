@@ -200,9 +200,9 @@
           "name": "GTNick",
           "type": "FabricMod",
           "artifact": {
-            "size": 94523,
+            "size": 94521,
             "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/gtnick-fabric-1.21.10-1.0.0.jar",
-            "MD5": "58c70b0fc86936908e5cd90961d08441"
+            "MD5": "1d3c339d93f7b6e4da76dc484ba50629"
           }
         },
         {
