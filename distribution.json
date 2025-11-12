@@ -206,6 +206,16 @@
           }
         },
         {
+          "id": "com.gitter:gtnick:2.0.1@jar",
+          "name": "GTNick",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105021,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/gtnick-fabric-1.21.10-2.0.1.jar",
+            "MD5": "86f79961244c72ad0f37a89a7bb2e5d9"
+          }
+        },
+        {
           "id": "generated.fabricmod:iris:1.9.6+mc1.21.9@jar",
           "name": "Iris",
           "type": "FabricMod",
