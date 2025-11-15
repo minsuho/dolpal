@@ -156,13 +156,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.138.0+1.21.10@jar",
+          "id": "generated.fabricmod:fabric-api:0.138.3+1.21.10@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2376231,
-            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/fabric-api-0.138.0+1.21.10.jar",
-            "MD5": "958d212ca64a14211bcc3f0165481a5c"
+            "size": 2376234,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/fabric-api-0.138.3+1.21.10.jar",
+            "MD5": "b263728ad8fceb348162ac0b18c02de6"
           }
         },
         {
@@ -216,23 +216,23 @@
           }
         },
         {
-          "id": "journeymap:journeymap:1.21.10-6.0.0-beta.53@jar",
+          "id": "journeymap:journeymap:1.21.10-6.0.0-beta.54@jar",
           "name": "Journeymap",
           "type": "FabricMod",
           "artifact": {
-            "size": 3609087,
-            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/journeymap-fabric-1.21.10-6.0.0-beta.53.jar",
-            "MD5": "3ca62999d342e3c025c68eaf403516e5"
+            "size": 3609586,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/journeymap-fabric-1.21.10-6.0.0-beta.54.jar",
+            "MD5": "dd31566084dca5a025f32f8d6bd1017d"
           }
         },
         {
-          "id": "com.hyfata.najoan:koreanpatch:1.9.2+mc1.21.10@jar",
+          "id": "com.hyfata.najoan:koreanpatch:1.9.3+mc1.21.10@jar",
           "name": "Korean Patch",
           "type": "FabricMod",
           "artifact": {
-            "size": 642593,
-            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/koreanpatch-fabric-1.9.2+mc1.21.10.jar",
-            "MD5": "18759aa86998e9df2a83926263752b9f"
+            "size": 643902,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/koreanpatch-fabric-1.9.3+mc1.21.10.jar",
+            "MD5": "e6ad4af50910c892a3ce558dfbf6552c"
           }
         },
         {
@@ -276,13 +276,23 @@
           }
         },
         {
-          "id": "net.caffeinemc.mods:sodium:0.7.2+mc1.21.10@jar",
+          "id": "net.caffeinemc.mods:sodium:0.7.3+mc1.21.10@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 1675639,
-            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/sodium-fabric-0.7.2+mc1.21.10.jar",
-            "MD5": "76e0d7d1c910f58627b6e8bd6fd418da"
+            "size": 1676903,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/sodium-fabric-0.7.3+mc1.21.10.jar",
+            "MD5": "57a54742a51ae95bdc47e83f7245a9e2"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.0+1.21.9-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1126346,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/yet_another_config_lib_v3-3.8.0+1.21.9-fabric.jar",
+            "MD5": "88d9e2214bc8f4bd6aa23a0ba4c49ab0"
           }
         },
         {
