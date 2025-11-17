@@ -186,13 +186,13 @@
           }
         },
         {
-          "id": "com.gitter.gtdonationapi.fabric.v1_21_10:gtdonationapi:2.0.0@jar",
+          "id": "com.gitter.gtdonationapi.fabric.v1_21_10:gtdonationapi:2.0.1@jar",
           "name": "GT-DonationAPI",
           "type": "FabricMod",
           "artifact": {
-            "size": 5896392,
-            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/GT-DonationAPI-fabric-1.21.10-2.0.0.jar",
-            "MD5": "748ca4caceba59b1d1f9c6586a893ad0"
+            "size": 5894029,
+            "url": "https://github.com/minsuho/dolpal/raw/main/servers/dolpal-1.21.10/fabricmods/required/GT-DonationAPI-fabric-1.21.10-2.0.1.jar",
+            "MD5": "7850d59f340bf8d4487c24b8c58678e8"
           }
         },
         {
